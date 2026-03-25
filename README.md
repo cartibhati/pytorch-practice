@@ -65,6 +65,50 @@ Optimized training using CUDA for faster computation.
 
 ---
 
+## 📊 Results & Observations
+
+### 🖥️ CPU Training (Small Dataset)
+
+* Trained on **5,000 samples**
+* Achieved **~83% accuracy**
+* Faster experimentation but limited performance due to less data
+
+---
+
+### ⚡ GPU Training (Full Dataset)
+
+* Trained on **60,000 samples**
+* **Training Accuracy:** ~98%
+* **Test Accuracy:** ~89%
+* Significant improvement due to:
+
+  * More data
+  * Faster computation
+  * Better generalization
+
+---
+
+### 🧠 Regularization & Optimization
+
+Applied:
+
+* L2 Regularization
+* Dropout
+* Batch Normalization
+
+**Results:**
+
+* **Training Accuracy:** ~93%
+* **Test Accuracy:** ~88%
+
+📌 Insight:
+
+* Reduced gap between training and test accuracy
+* Successfully **reduced overfitting**
+* Slight drop in training accuracy but improved model generalization
+
+---
+
 ## 🛠️ Tech Stack
 
 * Python
@@ -79,5 +123,6 @@ Optimized training using CUDA for faster computation.
 * Hyperparameter tuning
 * Model evaluation metrics visualization
 * Deploy models
+
 
 
